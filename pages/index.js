@@ -23,7 +23,6 @@ export default function Home() {
           TooTravel
         </h2>
         <div className="flex flex-col w-3/5">
-          >
           <h1 className="text-white text-5xl font-semibold">
             The most beautiful places in the world!
           </h1>
@@ -31,11 +30,11 @@ export default function Home() {
             {" "}
             Plan your vacation on the most beautiful places in the world
           </p>
-          <button className="bg-orange w-60 text-[#fff] h-10 mt-10 py-2 px-5 rounded-xl ">
+          <button className="bg-orange w-60 text-[#fff] h-10 mt-10 py-2 px-5 rounded-xl hover:bg-[#8a3413] hover:scale-110 transition duration-500">
             Get Started
           </button>
         </div>
-        <div className="absolute bottom-20 left-40 flex items-center">
+        <div className="absolute bottom-20 left-40 flex items-center hover:scale-110 duration-700">
           <p className="text-white mr-2">01</p>
           <div className="h-[2px] w-8 bg-white mr-2"></div>
           <div className="h-[2px] w-8 bg-white bg-opacity-20 mr-2 hover:bg-opacity-100 cursor-pointer"></div>
@@ -45,6 +44,12 @@ export default function Home() {
       </div>
       <div style={{ flex: "0.4" }}>
         <AppRight></AppRight>
+        <div className="absolute bottom-2 right-80 text-center justify-center items-center">
+          <p className="text-blue text-1xl font-semibold">
+            {" "}
+            Developed by Eslam Turki
+          </p>
+        </div>
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ function AppRight() {
     <div className="p-10">
       <header className="flex justify-between">
         {/* <AppsIcon /> */}
-        <ViewGridIcon className="h-8 w-8" />
+        <ViewGridIcon className="h-8 w-8 animate-bounce h-6 w-6" />
         <div className="flex items-center">
           <p className="link">Gallery</p>
           <p className="link">Stories</p>
@@ -47,9 +47,9 @@ function AppRight() {
           alt="hot air balloons"
         />
       </div>
-      <h1 className="test-blue text-3xl font-bold mt-5">Types of Travel</h1>
-      <div className="flex justify-evenly mt-2 ">
-        <TravelOptions emoji="⭐" title="Luxury" active></TravelOptions>
+      <h1 className="test-blue text-3xl font-bold mt-7">Types of Travel</h1>
+      <div className="flex justify-evenly mt-8 ">
+        <TravelOptions emoji="🌠" title="Luxury" active></TravelOptions>
         <TravelOptions emoji="🦁" title="Safari"></TravelOptions>
         <TravelOptions emoji="🚄" title="Train"></TravelOptions>
         <TravelOptions emoji="👪" title="Family"></TravelOptions>
